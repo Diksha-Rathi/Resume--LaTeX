@@ -1,6 +1,6 @@
 # Resume-LaTeX
 
-The repository contains my Resume PDF and LaTeX template.
+The repository contains the Resume PDF and LaTeX template.
 
 Download Link to Resume- [Click here](https://raw.githubusercontent.com/Diksha-Rathi/Resume-LaTeX/master/Resume.pdf)
 
