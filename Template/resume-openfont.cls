@@ -46,7 +46,7 @@ Last Updated on
 	\centering{
 	    \color{subheadings}
 		\sffamily
-		\fontspec[Path = fonts/lato/]{Lato-Hai}\fontsize{30pt}{8cm}\selectfont #1
+		\fontspec[Path = fonts/lato/]{Lato-Hai}\fontsize{18pt}{8cm}\selectfont #1
 		\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
 	} \\
 	\vspace{5pt}
@@ -58,7 +58,7 @@ Last Updated on
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{13pt}{13pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % Subheadings command
 \titleformat{\subsection}{\color{primary}
