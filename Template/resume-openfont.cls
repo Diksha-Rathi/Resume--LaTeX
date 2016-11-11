@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=0.7cm]{geometry}
+\usepackage[a4paper, hmargin=1.15cm, vmargin=0.5cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{hyperref}
 \usepackage{titlesec}
@@ -36,7 +36,7 @@
 \setlength{\TPVertModule}{1mm}
 \textblockorigin{0mm}{5mm} % start everyth
 \newcommand{\lastupdated}{\begin{textblock}{60}(165,0)
-\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{9pt}\selectfont 
+\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{8pt}\selectfont 
 Last Updated on
 \today
 \end{textblock}}
@@ -46,7 +46,7 @@ Last Updated on
 	\centering{
 	    \color{subheadings}
 		\sffamily
-		\fontspec[Path = fonts/lato/]{Lato-Hai}\fontsize{18pt}{8cm}\selectfont #1
+		\fontspec[Path = fonts/lato/]{Lato-Hai}\fontsize{18pt}{2cm}\selectfont #1
 		\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
 	} \\
 	\vspace{5pt}
@@ -58,11 +58,11 @@ Last Updated on
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{13pt}{13pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{10pt}{10pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % Subheadings command
 \titleformat{\subsection}{\color{primary}
-\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{11pt}{11pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{9pt}{9pt}\selectfont\bfseries\uppercase}{}{0em}{}
 \titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
 \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 \newcommand{\runsubsection}[1]{\color{subheadings}
@@ -78,4 +78,4 @@ Last Updated on
 \newcommand{\sectionsep}[0]{\vspace{5pt}}
 
 % Bullet Lists with fewer gaps command
-\newenvironment{tightemize}{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \fontsize{9pt}{9pt} \parsep0pt}{\end{itemize}\vspace{-\topsep}}
+\newenvironment{tightemize}{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \fontsize{8pt}{8pt} \parsep0pt}{\end{itemize}\vspace{-\topsep}}
