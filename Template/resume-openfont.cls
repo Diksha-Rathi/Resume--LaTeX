@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[a4paper, hmargin=1.15cm, vmargin=0.5cm]{geometry}
+\usepackage[a4paper, hmargin=1cm, vmargin=0.3cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{hyperref}
 \usepackage{titlesec}
