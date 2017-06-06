@@ -1,11 +1,9 @@
 # Resume-LaTeX
 
-This repository contains my Resume PDF and Latex template.
+This repository contains my previous Resume template(s).
 
 Download Link to Resume- [Click here](https://raw.githubusercontent.com/Diksha-Rathi/Resume-LaTeX/master/Resume.pdf)
 
 #### Thanks for creating the following:
 
-* ([view/open on Overleaf](https://www.overleaf.com/read/gtqfpbwncfvp))
-
-#### License:
+* [Deedy Resume](https://github.com/deedy/Deedy-Resume) 

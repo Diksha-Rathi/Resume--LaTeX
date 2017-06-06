@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options. 
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[9.5pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages. 
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+%\addbibresource{sample.bib}
+
+\begin{document}
+\name{Diksha}
+\tagline{}
+%\photo{2.5cm}{diksha}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \location{New Delhi, India}
+  \email{diksha.2895@gmail.com}
+  % \phone{000-00-0000}
+  \homepage{\href{http://diksha-rathi.github.io}{diksha-rathi.github.io}}
+  % \mailaddress{Address, Street, 00000 County}
+  % \twitter{@marissamayer}
+  % \linkedin{linkedin.com/in/marissamayer}
+  % \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Work Experience}
+
+\cvevent{Internship}{Oil and Natural Gas Corporation (ONGC)}{May -- June 2016}{New Delhi, India}
+Built an application to generate ABAP List Viewer (ALV) Report by retrieving data from multiple tables using F4 help object to select records. The application developed had the flexibility to allow retrieving data from any number of linked tables as selected by the user before executing the application.
+\begin{itemize}
+\item Technology used- ABAP
+\end{itemize}
+
+\divider
+
+\cvevent{Internship}{HCL Infotech Limited}{June -- July 2015}{Noida, India}
+Developed a web application to make searching for nearby hospitals, fire stations, restaurants, parks, metro stations and police stations easy. The user enters the district or city name. A search provides the top 20 nearest results with Address, Local Phone Number and International Phone Number for the selected category.
+\begin{itemize}
+\item Technology used- HTML, CSS, Python, Python Google Places, Bootstrap and Django Framework
+\item Link- \href{https://find-my-perfect-place.herokuapp.com/}{\custombold{https://find-my-perfect-place.herokuapp.com/}}
+\end{itemize}
+
+\cvsection{Projects}
+
+\textbf{Link to the source code of the projects:} \href{https://github.com/Diksha-Rathi}{\custombold{GitHub}}
+
+\medskip
+
+\cvproject{SafeBox}{September 2016 -- May 2017}{}
+\begin{itemize}
+\item Objective- Securely share data across the cloud storage and implement access controls on shared data.
+\item Technology Used- HTML, CSS, Python, PostgreSQL, Django Framework, Google Drive API and Google Oauth2client package for Django
+\item Supervisor- Mr. Sumit Yadav, Assistant Professor
+\end{itemize}
+
+\divider
+
+\cvproject{Smart Bin}{September -- November 2015}{GHC (India) Hackathon}
+\begin{itemize}
+\item Objective- Resolve problems related to garbage collection and segregation for a Bangalore based NGO (Reap Benefit).
+\item Technology used- HTML, CSS, Python, D3, PostgreSQL, Google Maps, Bootstrap and Django Framework
+\item Demo- \href{https://youtu.be/UP\_KwSg6GIk}{\custombold{https://youtu.be/UP\_KwSg6GIk/}}
+\end{itemize}
+
+\divider
+
+\cvproject{College Portal}{October -- November 2016}{}
+\begin{itemize}
+\item Objective- Build a central information system to allow students at university to quickly access to any academic information, previous year question papers, upcoming events and much more.
+\item Technology Used- HTML, CSS, Python, PostgreSQL, Bootstrap and Django Framework
+\item Link- \href{http://igdtuwonline.herokuapp.com/}{\custombold{http://igdtuwonline.herokuapp.com/}}
+\end{itemize}
+
+\addnextpagesidebar[-1ex]{page2sidebar}
+
+\cvproject{Alumni Association Website}{June- July 2015 }{}
+\begin{itemize}
+\item Objective- A website with integrated forum for the college alumni and the students to interact and stay connected.
+\item Technology Used- HTML, CSS, PHP, MySQL, Bootstrap and CodoForum Framework
+\item Link- \href{http://fatimarafiqui.com/work/igdtuwalumni/}{\custombold{https://goo.gl/TeoPKN}}
+\item Supervisor- Mr. Vivekanad Jha, Professor
+\end{itemize}
+
+\divider
+
+\cvproject{Taarangana Website}{November 2015- January 2016}{}
+Website for college’s annual cultural festival.
+\begin{itemize}
+\item Objective- The information source for all the events and a platform for the teams to register. 
+\item Technology Used- HTML, CSS, PHP and Bootstrap Framework
+\end{itemize}
+
+\cvsection[page3sidebar]{Academic Achievements}
+
+\begin{itemize}
+\item Qualified for \textbf{ACM- ICPC Asia 2016} Regional.
+\item First position in Research Showcase– 2016 held at Indira Gandhi Delhi Technical University, Delhi, India. 
+\item Participated in preliminary Online round of \textbf{ACM- ICPC 2015}.
+\item Awarded a scholarship of INR 7500  each year in classes XI and XII for academic excellence (Senior Secondary).
+\item School topper in Class X (Secondary) CBSE Board exams.
+\end{itemize}
+
+\cvsection{Position of Responsibility}
+
+\cvresponsibility{Training and Placement Cell}{Computer Science (CS) Department Lead}{January 2016 -- May 2017}{IGDTU}
+\begin{itemize}
+\item Designed the training and placement brochure.
+\item Interact with the potential recruiters and maintain student Resume Bank and Corporate Database for facilitating placement of 300+ students.
+\end{itemize}
+
+\cvresponsibility{CodeBenders- Programming Club}{Founder and Core Team Member}{June 2014 -- December 2016}{IGDTU}
+Founded the first programming club at university with the aim to encourage girls to contribute to open source projects and participate in programming challenges like ACM- ICPC, Code Jam, Hacker Cup etc.
+
+
+
+\cvresponsibility{Taarangana- Annual Cultural Festival}{Core Team Member}{March 2015- February 2016}{IGDTU}
+Lead a team of 12 for the development of website. Also, managed the presence of event on Social Media.
+
+\cvresponsibilityy{Editor}{}{}{}
+\begin{itemize}
+\item 2015: Chief- Editor from CS Department for college’s annual newsletter- Bits and Bytes.
+\item 2013- 2015: Associate Editor at Computer Society of India Student Chapter of university. 
+\end{itemize}
+
+\cvsection{Volunteer Experience}
+
+\cvvolunteer{Google Code-In}{November 2016 –- January 2017}
+I worked as a mentor for documentation/ outreach with Systers as part of Google Code-In competition to introduce 13 to 18 year-old kids to open source
+
+\cvvolunteer{Education Tree}{September 2013 –-November 2013}
+I was involved with a campaign to spread awareness for crimes against women.
+
+
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the 
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
