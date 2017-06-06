@@ -22,6 +22,12 @@
 \definecolor{emphasis}{HTML}{000000}
 \definecolor{body}{HTML}{34495E}
 \definecolor{links}{HTML}{3B74FF}
+\definecolor{alphabetg}{HTML}{4285F4}
+\definecolor{alphabeto}{HTML}{34A853}
+\definecolor{alphabeto}{HTML}{FBBC05}
+\definecolor{alphabetg}{HTML}{4285F4}
+\definecolor{alphabetl}{HTML}{EA4335}
+\definecolor{alphabete}{HTML}{34A853}
 
 %% v1.1: Optionally load academicons
 \if@academicons
