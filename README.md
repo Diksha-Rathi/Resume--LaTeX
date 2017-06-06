@@ -6,7 +6,7 @@ Download Link to Resume- [Click here](https://raw.githubusercontent.com/Diksha-R
 
 #### Thanks for creating the following:
 
-* [ AltaCV](https://www.overleaf.com/read/gtqfpbwncfvp)
+* [AltaCV](https://www.overleaf.com/read/gtqfpbwncfvp)
 
 License
 ----
