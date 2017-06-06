@@ -6,6 +6,9 @@ Download Link to Resume- [Click here](https://raw.githubusercontent.com/Diksha-R
 
 #### Thanks for creating the following:
 
-* ([view/open on Overleaf](https://www.overleaf.com/read/gtqfpbwncfvp))
+* [ AltaCV](https://www.overleaf.com/read/gtqfpbwncfvp)
 
-#### License:
+License
+----
+
+[The MIT License (MIT)](https://github.com/Diksha-Rathi/Resume-LaTeX/blob/master/LICENSE)
