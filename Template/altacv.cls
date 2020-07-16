@@ -29,7 +29,7 @@
 \definecolor{accent}{HTML}{000000}
 \definecolor{heading}{HTML}{000000}
 \definecolor{emphasis}{HTML}{000000}
-\definecolor{body}{HTML}{34495E}
+\definecolor{body}{HTML}{000000}%{34495E}
 \definecolor{links}{HTML}{588BAE}
 \definecolor{alphabetg}{HTML}{4285F4}
 \definecolor{alphabeto}{HTML}{34A853}
